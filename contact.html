@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- <link rel="stylesheet" href="./script.js"> -->
+    <title>Document</title>
+</head>
+<body class="backimg">
+    <nav>
+        <div class="logo"><h1 class="animate__heartBeat">All India Tour </h1></div>
+        <div class="menu">
+            <a href="index.html">Home &nbsp;</a>
+            <a href="contact.html">Register &nbsp;</a>
+            <a href="about.html">Places &nbsp;</a>
+            <a href="">Gallery &nbsp;</a>
+        </div>
+    </nav>
+    <table>
+        <tr>
+            <td>
+                <form onsubmit="event.preventDefault();onformsubmit();" autocomplete="off">
+                    <div>
+                    <label for="">Full Name</label>
+                    <input type="text" name="fullname" id="fullname">
+                    </div>
+                    <div>
+                        <label for="">Aadhar ID</label>
+                        <input type="text" name="empcode" id="empcode">
+                    </div>
+                    <div>
+                        <label for="">Estimate money</label>
+                        <input type="text" name="salary" id="salary">
+                    </div>
+                    <div>
+                        <label for="">Place to travel</label>
+                        <input type="text" name="city" id="city">
+                    </div>
+                    <div class="form-action-buttons">
+                        <input type="submit" name="Submit">
+                    </div>
+                </form>
+            </td>
+            <td>
+                <table class="list" id="employeelist">
+                    <thead>
+                        <tr>
+                            <th>Full Name</th>
+                            <th>Emp Code</th>
+                            <th>Salary</th>
+                            <th>City</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <script src="./script.js"></script>
+</body>
+</html>
